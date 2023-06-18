@@ -12,7 +12,11 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: var(--color-blue);
+    background-image: linear-gradient(
+        90deg,   
+        var(--color-blue2),
+        var(--color-blue)
+    )
 }
 
 .content{
