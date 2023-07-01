@@ -1,37 +1,35 @@
-:root{
+:root {
     --color-white: #fff;
     --color-blue: rgb(116, 182, 248);
     --color-blue2: rgb(54, 143, 233);
     --color-gray: rgb(238, 238, 238);
 }
 
-body{
+body {
     all: unset;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: linear-gradient(
-        90deg,   
-        var(--color-blue2),
-        var(--color-blue)
-    )
+    background-image: linear-gradient(90deg,
+            var(--color-blue2),
+            var(--color-blue))
 }
 
-.content{
+.content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     color: var(--color-white);
     padding: 3rem 4rem;
     border-radius: 1rem;
 }
 
-.content input{
+.content input {
     background-color: transparent;
     border: none;
     border-bottom: 1px solid var(--color-gray);
@@ -42,15 +40,15 @@ body{
     font-size: 1rem;
 }
 
-.content input::placeholder{
+.content input::placeholder {
     color: var(--color-white);
 }
 
-.content input:focus{
+.content input:focus {
     border-bottom: 1px solid var(--color-blue);
 }
 
-.content button{
+.content button {
     padding: .8rem;
     width: 80%;
     font-size: 1rem;
@@ -63,7 +61,6 @@ body{
     transition: .4s;
 }
 
-.content button:hover{
+.content button:hover {
     background-color: var(--color-blue);
 }
-
